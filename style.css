@@ -13,3 +13,10 @@
     overflow: hidden;
     background: linear-gradient(#87ceeb, #e0f6ff);
 }
+
+.pipe {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: papi-animaton 1.5s infinite linear;
+    
