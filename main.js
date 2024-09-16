@@ -1,5 +1,6 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
+const nuvem = document.querySelector(".nuvem")
 const startButton = document.querySelector(".start");
 const gameOverScreen = document.querySelector(".game-over");
 
@@ -7,6 +8,7 @@ AudioStart = Audio("./sound/audio_theme.mp3");
 const gameOverSound = new Audio("./sound/audio.gameover.mp3");
 
 let gameStarted = false;
+
 const gameStarted = () => {
 gameStarted = true;
 audioStart.play();
@@ -22,7 +24,7 @@ clouds.style.opacity = "1";
 
 const jump = () => {
   if(gameStarted) {
-    mario.classList.add("jump");
+  mario.ClassList.add("jump");
 
     setTimeout(() => {
         mario.classList.remove("jump")
