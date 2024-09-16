@@ -43,7 +43,7 @@
 }
 
 button {
-    background: freen;
+    background: green;
     color: white;
     font-weight: bold;
     font-size: 1.5rem;
@@ -56,13 +56,13 @@ button {
     z-index: 1;
     
 }
-boton:hover {
+button:hover {
     border: 2px solid green;
     background: none;
     color: green;
 }
 
-button: start {
+button:start {
     display: block;
 }
 .game-over {
@@ -71,8 +71,8 @@ button: start {
     height: 100vh;
     background: red;
     display: none;
-    aling-items: center;
-    justtify-content: center;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     position: fixed;
     top: 0; 
