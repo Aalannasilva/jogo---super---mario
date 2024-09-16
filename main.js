@@ -44,11 +44,15 @@ if(pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
     mario.style.animation = "none";
     mario.style.left = `${marioPosition}px`;
 
-    mario.src = "game-over.png";
+    mario.src = "./img/game-over.png";
     mario.style.width = "75px";
     mario.style.marginLeft = "50px";
+    audioStart.pause();
+
+    gameOverSound.play();
 
     clearInterval(loop);
+    gameOverScreen.style.display = "flex";
   }
 },10);
 
