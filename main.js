@@ -39,7 +39,7 @@ const updateScore = () => {
   score += 1;
   scoreElement.textContent = score;
   const animtionSpeed = 1.5/ (1 + score/ 500);
-  pipe.style.animation = pipe-animation $(animationSpeed)s infinite linear`;
+  pipe.style.animation = ´pipe-animation $(animationSpeed)s infinite linear`;
 }
 
 const loop = setInterval (() => {
